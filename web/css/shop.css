@@ -1,0 +1,241 @@
+.shop-main{
+    background-color: #f7f7f7;
+}
+.shop-main .shop-wraper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.shop-wraper>div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.shop-wraper .shop-area{
+    position: relative;
+    overflow: hidden;
+}
+.shop-box-title{
+   width: 880px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shop-box-title i{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ccc;
+}
+.shop-box-title>a:hover{
+    color: #ff830b;
+}
+.shop-wraper .shop-area .shop-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    height: 450px;
+    background-color: white;
+    margin-top: 10px;
+}
+.shop-box .shop-img{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float: left;
+}
+.shop-box .shop-img img{
+    width: 300px;
+    height: 300px;
+}
+.shop-wraper .shop-area .shop-box .shop-img-right{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float: left;
+    width: 500px;
+}
+.shop-title{
+    overflow: hidden;
+}
+.shop-img-right .shop-title,.shop-price{
+font-size: 20px;
+}
+.seller,.looks,.up-time,.shop-state,.shop-classes{
+    font-size: 14px;
+    color:#666;
+}
+.d-name{
+    width: 60px;
+    margin-right: 30px;
+    float: left;
+    color:#666;
+}
+.d-value{
+    margin-left: 10px;
+    color:#666;
+}
+.shop-img-right>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-box-buy>a{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ff830b;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-box-buy{
+    float: left;
+}
+.btn-box-love{
+    margin-left: 20px;
+    float: left;
+}
+.btn-box-love>a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: solid 1px #999;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+.btn-box-love>a:hover{
+    background-color: #f7f7f7;
+}
+.goods-describe{
+position: relative;
+    overflow: hidden;
+}
+.goods-comment{
+position: relative;
+    overflow: hidden;
+}
+.describe-content{
+    min-height: 100px;
+    width: 100%;
+}
+.describe-text-area{
+    float: left;
+    font-size: 14px;
+    color: #333;
+    width: 580px;
+    word-wrap: break-word;
+}
+.img-area{
+    float: right;
+    width: 160px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.con-box{
+    width: 880px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.con-box-inner{
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.con-box .con-box-title{
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: solid 1px #eaeaea;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.con-box-inner .con-box-content{
+    margin-top: 20px;
+    float: left;
+}
+.tips{
+    color: #ff830b;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.img-out-box{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.img-inner-box{
+
+}
+.img-inner-box img{
+    width: 70px;
+    height: 70px;
+    transition: 1s all;
+}
+.img-inner-box img:hover{
+    width: 140px;
+    height: 140px;
+    z-index: 9999;
+    position: relative;
+}
+.comment-content{
+    float: left;
+}
+.comment-menu{
+    float: left;
+}
+.comment-menu .con-li{
+    min-height: 80px;
+    padding: 10px;
+    border-bottom: solid 1px #eaeaea;
+    overflow: hidden;
+    float: left;
+}
+.comment-menu .con-li .li-inner-box{
+    min-height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    float: left;
+}
+.head-img{
+    width: 50px;
+    float: left;
+}
+.head-img img{
+    width: 50px;
+    border-radius: 50%;
+}
+.head-img-right{
+    margin-left: 10px;
+    float: left;
+    width: 650px;
+}
+.span-name{
+    color: #1982d1;
+}
+ .user-name a{
+    font-size: 14px;
+}
+ .user-name:hover .span-name{
+    color: #ff830b;
+}
+ .user-name .span-sellcount{
+    color: #999;
+}
+.user-conment{
+    margin-top: 15px;
+    width: 650px;
+    min-height: 20px;
+    word-wrap: break-word;
+}

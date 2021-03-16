@@ -1,0 +1,75 @@
+.sell-g-main{
+    position: relative;
+}
+.sell-g-main .sell-g-wraper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    position: relative;
+    background-color: white;
+}
+.sell-g-main .sell-g-wraper>form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.row-d1{
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #555;
+}
+.sell-label{
+    font-size: 20px;
+    width: 100px;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.sell-input{
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+}
+.sell-select{
+    height: 40px;
+    width: 140px;
+}
+.sell-radio{
+    height: 40px;
+    width: 15px;
+    font-size: 16px;
+    float: left;
+}
+.sell-discribe{
+    min-height: 200px;
+    width: 400px;
+    word-break: break-word;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 2px;
+    outline: 0 none;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    resize: none;
+}
+.submit-btn{
+    width: 160px;
+    height: 30px;
+    background-color: #489ae3;
+    border: solid 1px white;
+    color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.update-btn{
+    float: left;
+    margin-left: 20px;
+    height: 30px;
+    width: 60px;
+    margin-top: 5px
+}

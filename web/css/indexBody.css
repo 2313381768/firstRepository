@@ -1,0 +1,160 @@
+
+.body-area{
+    position: relative;
+    margin-top: 40px;
+}
+.body-area .body-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 500px;
+}
+.body-area .body-box .classes-box{
+    width: 200px;
+    height: 450px;
+    margin-left: 60px;
+    border: 1px solid #1ce568;
+    float: left;
+    background-color: white;
+}
+.body-area .body-box .classes-box .goods-classes{
+    font-size: 17px;
+}
+.classes-tittle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #09bf4d;
+}
+.goods-classes>li{
+    margin-bottom: 5px;
+}
+.goods-classes a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.goods-classes>li:hover{
+    background-color: #5bfa97;
+}
+.slide-box{
+    width: 900px;
+    height: 452px;
+    float: left;
+}
+.slide-main{
+    width: 900px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    position: relative;
+}
+.body-center>div{
+    overflow: hidden;
+}
+.model-box{
+    margin: 15px;
+    float: left;
+    width: 162px;
+    position: relative;
+    min-height: 1px;
+    overflow: hidden;
+}
+.model-box:hover{
+    box-shadow:0px 0px  10px 5px #aaa;
+}
+.model-box>a{
+    overflow: hidden;
+    display: block;
+}
+.model-box-inner{
+    background-color: #fff;
+    border: solid 1px #eee;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+.title-model{
+    font-size: 20px;
+    border-bottom: none;
+    color: #254059;
+    line-height: 20px;
+    margin: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.more{
+    float: right;
+    line-height: 15px;
+    padding-left: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.more a {
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.more i{
+    color: #ff6600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+ }
+.image_wrapper{
+    height: 161px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image_wrapper img{
+    height: 161px;
+    width: 161px;
+}
+.info_wrapper{
+    padding: 12px 10px;
+    font-size: 15px;
+    line-height: 1em;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.trade_title{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left !important;
+    overflow: hidden;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+}
+.trade_info{
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 20px;
+}
+.price{
+    color: #ff6600;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}

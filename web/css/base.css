@@ -1,0 +1,27 @@
+.clear{
+    clear:both;
+}
+body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    background-color: #F6F6F6;
+}
+
+*,a,p,li,h1{
+    margin: 0;padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #100f0f;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    font-size: 100%;
+}
+h4{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

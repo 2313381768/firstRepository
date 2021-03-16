@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="secondhandtrading:Web exploded">
+    <output-path>$PROJECT_DIR$/../../project/apache-tomcat-9.0.37/webapps/artifacts/secondhandtrading_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="secondhandtrading/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="secondhandtrading" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
